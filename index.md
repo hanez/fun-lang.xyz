@@ -41,7 +41,7 @@ Fun is and will ever be 100% free under the terms of the [Apache-2.0-License](ht
  - Dynamic and optionally statically typed
  - Type safety
  - Written in C (C11) and Fun
- - Internal libs are written with no_camel_case even when written in Fun, except class Names
+ - Internal libs are written with no_camel_case even when written in Fun, except class names
  - Only a minimal function set is written in C, and most other core functions and libraries are implemented in Fun
 
 ## The Fun Manifesto
