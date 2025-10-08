@@ -1,8 +1,8 @@
 document_root: /var/www/fun-lang.xyz/www/htdocs/
 data_dir: /var/www/fun-lang.xyz/www/htdocs/
 title: fun> :load
-subtitle: The programming language that makes you have fun
-description: The programming language that makes you have fun
+subtitle: The programming language that makes you have fun!
+description: The programming language that makes you have fun!
 keywords:
   - fun
   - static
@@ -88,7 +88,7 @@ category_archive:
 
 plugins:
   - jekyll-paginate
-  - jekyll-seo-tag
+#  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-toc
 

@@ -25,9 +25,9 @@ noComments: true
 
 Fun is a highly strict programming language, but also highly simple. It looks like Python (My favorite language), but there are differences.
 
-Influenced by Bash, **[C](https://en.wikipedia.org/wiki/The_C_Programming_Language){:class="ext"}**, Go, **[Lua](https://www.lua.org/){:class="ext"}**, **[Python](https://www.python.org/){:class="ext"}**, and Rust (Most influences came from linked languages).
+Influenced by **[Bash](https://www.gnu.org/software/bash/){:class="ext"}**, **[C](https://en.wikipedia.org/wiki/The_C_Programming_Language){:class="ext"}**, Go, **[Lua](https://www.lua.org/){:class="ext"}**, **[Python](https://www.python.org/){:class="ext"}**, and Rust (Most influences came from linked languages).
 
-Fun is and will ever be 100% free under the terms of the [Apache-2.0-License](https://opensource.org/license/apache-2-0){:class="ext"}.
+Fun is and will ever be 100% free under the terms of the [Apache-2.0 License](https://opensource.org/license/apache-2-0){:class="ext"}.
 
 ## Idea
 
