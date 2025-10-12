@@ -81,9 +81,9 @@ Consequence: A permanent ban from any sort of public interaction within the comm
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org){:class="ext" target="_blank"}, version 2.1, available at [https://www.contributor-covenant.org/version/2/1/code_of_conduct.html](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html){:class="ext" target="_blank"}.
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org){:class="ext"}, version 2.1, available at [https://www.contributor-covenant.org/version/2/1/code_of_conduct.html](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html){:class="ext"}.
 
-Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity){:class="ext" target="_blank"}.
+Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity){:class="ext"}.
 
-For answers to common questions about this code of conduct, see the FAQ at [https://www.contributor-covenant.org/faq](https://www.contributor-covenant.org/faq){:class="ext" target="_blank"}. Translations are available at [https://www.contributor-covenant.org/translations](https://www.contributor-covenant.org/translations){:class="ext" target="_blank"}.
+For answers to common questions about this code of conduct, see the FAQ at [https://www.contributor-covenant.org/faq](https://www.contributor-covenant.org/faq){:class="ext"}. Translations are available at [https://www.contributor-covenant.org/translations](https://www.contributor-covenant.org/translations){:class="ext"}.
 
