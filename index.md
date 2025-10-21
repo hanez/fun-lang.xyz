@@ -31,22 +31,24 @@ Fun is and will ever be 100% free under the terms of the [Apache-2.0 License](ht
 
 ## Idea
 
- - Simplicity
- - Consistency
- - Joy in coding
- - Fun!
+- Simplicity
+- Consistency
+- Joy in coding
+- Fun!
 
 ### Extras
 
- - PC/SC smart card support builtin (optional)
+- [PC/SC](https://pcsclite.apdu.fr/){:class="ext"} smart card support builtin (optional, in progress)
+- [SQLite](https://sqlite.org/){:class="ext"} support builtin (optional, planned)
+- Some [GUI/Widget toolkit](https://en.wikipedia.org/wiki/Widget_toolkit){:class="ext"} (optional, planned and in evaluation)
 
 ## Characteristics
 
- - Dynamic and optionally statically typed
- - Type safety
- - Written in C (C99) and Fun
- - Internal libs are written with no_camel_case even when written in Fun, except class names
- - Only a minimal function set is written in C, and most other core functions and libraries are implemented in Fun
+- Dynamic and optionally statically typed
+- Type safety
+- Written in C (C99) and Fun
+- Internal libs are written with no_camel_case even when written in Fun, except class names
+- Only a minimal function set is written in C, and most other core functions and libraries are implemented in Fun
 
 ## The Fun Manifesto
 
@@ -55,26 +57,26 @@ Coding should be enjoyable, elegant, and consistent.
 
 ### Philosophy
 
- - **Fun is Fun**<br>
-   Programming should spark creativity, not frustration. Code in Fun feels light, playful, and rewarding.
- - **Fun Uses Nothing**<br>
-   Minimalism is power. No unnecessary features, no endless syntax variations, no formatting debates. Just clean, uniform code.
- - **Indentation is Truth**<br>
-   Two spaces, always. No tabs, no four-space wars. Code should look the same everywhere, from your laptop to /usr/bin/fun.
- - **One Way to Do It**<br>
-   No clutter, no 15 ways of writing the same thing. Simplicity means clarity.
- - **Hackable by Nature**<br>
-   Fun should be small and embeddable, like Lua. Easy to understand, extend, and tinker with — true to the hacker spirit.
- - **Beautiful Defaults**<br>
-   A language that doesn’t need linters, formatters, or style guides. Beauty is built in.
+- **Fun is Fun**<br>
+  Programming should spark creativity, not frustration. Code in Fun feels light, playful, and rewarding.
+- **Fun Uses Nothing**<br>
+  Minimalism is power. No unnecessary features, no endless syntax variations, no formatting debates. Just clean, uniform code.
+- **Indentation is Truth**<br>
+  Two spaces, always. No tabs, no four-space wars. Code should look the same everywhere, from your laptop to /usr/bin/fun.
+- **One Way to Do It**<br>
+  No clutter, no 15 ways of writing the same thing. Simplicity means clarity.
+- **Hackable by Nature**<br>
+  Fun should be small and embeddable, like Lua. Easy to understand, extend, and tinker with — true to the hacker spirit.
+- **Beautiful Defaults**<br>
+  A language that doesn’t need linters, formatters, or style guides. Beauty is built in.
 
 ## The Community
 
 Fun is not about being the fastest or the most feature-rich. It’s about sharing joy in coding. The community should be:
 
- - Respectful
- - Curious
- - Creative
+- Respectful
+- Curious
+- Creative
 
 Like the name says: Fun Unites Nerds.
 
@@ -84,9 +86,9 @@ Please visit the [Fun Community Page](https://fun-lang.xyz/community/) to get in
 
 A language that feels like home for developers who:
 
- - Love minimal, elegant tools
- - Believe consistency is freedom
- - Want to write code that looks good and feels good
+- Love minimal, elegant tools
+- Believe consistency is freedom
+- Want to write code that looks good and feels good
 
 Fun may not change the world — but it will make programming a little more fun.
 
