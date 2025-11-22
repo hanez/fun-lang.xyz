@@ -38,9 +38,11 @@ Fun is and will ever be 100% free under the terms of the [Apache-2.0 License](ht
 
 ### Extras
 
-- [PC/SC](https://pcsclite.apdu.fr/){:class="ext"} smart card support builtin (optional, in progress)
+- [JSON](https://www.json.org/){:class="ext"} support builtin using [json-c](https://github.com/json-c/json-c){:class="ext"} (optional, planned, maybe write a parser in Fun for stdlib)
+- [ODBC](https://learn.microsoft.com/en-us/sql/odbc/reference/odbc-overview?view=sql-server-ver16){:class="ext"} support builtin for flexible database connectivity using [unixODBC](https://www.unixodbc.org/){:class="ext"} (optional, planned)
+- [PC/SC](https://pcscworkgroup.com/){:class="ext"} smart card support builtin using [PCSC lite](https://pcsclite.apdu.fr/){:class="ext"} (optional, in progress)
 - [SQLite](https://sqlite.org/){:class="ext"} support builtin (optional, planned)
-- Some [GUI/Widget toolkit](https://en.wikipedia.org/wiki/Widget_toolkit){:class="ext"} (optional, planned and in evaluation)
+- [Tk](https://www.tcl-lang.org/){:class="ext"} support builtin for GUI application development (optional, planned)
 
 ## Characteristics
 
