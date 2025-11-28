@@ -23,9 +23,11 @@ noComments: true
 
 ## What is Fun?
 
+Fun is an experiment, just for fun, but Fun works!
+
 Fun is a highly strict programming language, but also highly simple. It looks like Python (My favorite language), but there are differences.
 
-Influenced by **[Bash](https://www.gnu.org/software/bash/){:class="ext"}**, **[C](https://en.wikipedia.org/wiki/The_C_Programming_Language){:class="ext"}**, Go, **[Lua](https://www.lua.org/){:class="ext"}**, **[Python](https://www.python.org/){:class="ext"}**, and Rust (Most influences came from linked languages).
+Influenced by **[Bash](https://www.gnu.org/software/bash/){:class="ext"}**, **[C](https://en.wikipedia.org/wiki/The_C_Programming_Language){:class="ext"}**, **[Lua](https://www.lua.org/){:class="ext"}**, PHP, **[Python](https://www.python.org/){:class="ext"}**, and Rust (Most influences came from linked languages).
 
 Fun is and will ever be 100% free under the terms of the [Apache-2.0 License](https://opensource.org/license/apache-2-0){:class="ext"}.
 
@@ -35,14 +37,6 @@ Fun is and will ever be 100% free under the terms of the [Apache-2.0 License](ht
 - Consistency
 - Joy in coding
 - Fun!
-
-### Extras
-
-- [JSON](https://www.json.org/){:class="ext"} support builtin using [json-c](https://github.com/json-c/json-c){:class="ext"} (optional, planned, maybe write a parser in Fun for stdlib)
-- [ODBC](https://learn.microsoft.com/en-us/sql/odbc/reference/odbc-overview?view=sql-server-ver16){:class="ext"} support builtin for flexible database connectivity using [unixODBC](https://www.unixodbc.org/){:class="ext"} (optional, planned)
-- [PC/SC](https://pcscworkgroup.com/){:class="ext"} smart card support builtin using [PCSC lite](https://pcsclite.apdu.fr/){:class="ext"} (optional, in progress)
-- [SQLite](https://sqlite.org/){:class="ext"} support builtin (optional, planned)
-- [Tk](https://www.tcl-lang.org/){:class="ext"} support builtin for GUI application development (optional, planned)
 
 ## Characteristics
 
@@ -94,15 +88,52 @@ A language that feels like home for developers who:
 
 Fun may not change the world — but it will make programming a little more fun.
 
+## Features
+
+### Core
+
+- functions/classes/objects
+- if/else if/else
+- try/catch/finally
+
+### Lib
+
+...
+
+### Extensions
+
+- [CGI](https://en.wikipedia.org/wiki/Common_Gateway_Interface){:class="ext"} support builtin using [kcgi](https://kristaps.bsd.lv/kcgi/){:class="ext"} (optional) <span style="color:red;font-weight:bold;">&#9744;</span>
+- [cURL](https://curl.se/){:class="ext"} support builtin using [libcurl](https://curl.se/libcurl/){:class="ext"} (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
+- [INI](https://en.wikipedia.org/wiki/INI_file){:class="ext"} support builtin using [iniparser](https://gitlab.com/iniparser/iniparser/){:class="ext"} (optional) <span style="color:red;font-weight:bold;">&#9744;</span>
+- [JSON](https://www.json.org/){:class="ext"} support builtin using [json-c](https://github.com/json-c/json-c){:class="ext"} (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
+- [libSQL](https://github.com/tursodatabase/libsql){:class="ext"} support builtin as a compatible alternative to SQLite (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
+- [PCRE2](https://pcre2project.github.io/pcre2/){:class="ext"} support builtin for Perl-Compatible Regular Expressions (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
+- [PCSC](https://pcscworkgroup.com/){:class="ext"} smart card support builtin using [PCSC lite](https://pcsclite.apdu.fr/){:class="ext"} (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
+- [SQLite](https://sqlite.org/){:class="ext"} support builtin (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
+- [Tk](https://www.tcl-lang.org/){:class="ext"} support builtin for GUI application development (optional) <span style="color:red;font-weight:bold;">&#9744;</span>
+- [TOML](https://en.wikipedia.org/wiki/TOML){:class="ext"} support builtin using [tomlc99](https://github.com/cktan/tomlc99){:class="ext"} (optional) <span style="color:red;font-weight:bold;">&#9744;</span>
+- [XML](https://www.w3.org/XML/){:class="ext"} support builtin using [libxml2](https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home){:class="ext"} (optional) <span style="color:red;font-weight:bold;">&#9744;</span>
+- [YAML](https://yaml.org/){:class="ext"} support builtin using [libfyaml](https://github.com/pantoniou/libfyaml){:class="ext"} (optional) <span style="color:red;font-weight:bold;">&#9744;</span>
+
+<span style="color:green;font-weight:bold;">&#9745;</span> = Done / <span style="color:red;font-weight:bold;">&#9744;</span> = Planned or in progress.
+
+Note: Not all of the above features will be implemented. Those who are marked "Done" will probaly remain in Fun, but I don't know actually... ;)
+
+There are some libs written in Fun available at the [./lib/](https://git.xw3.org/fun/fun/src/branch/main/lib){:class="ext"} diretory. In the future most Fun enhancements should be written in Fun itself.
+
 ## Documentation
 
-I am writing documentation only actually, but this is work in progress, since debugging and bug fixing includes this task.
+This is actually a work in progress...
 
-Current documentation is only found in the [Fun Handbook](https://git.xw3.org/fun/fun/src/branch/main/docs/handbook.md){:class="git"}.
+Current documentation is only found in the [Fun Handbook](https://git.xw3.org/fun/fun/src/branch/main/docs/handbook.md){:class="ext"}.
 
-In the [examples/](https://git.xw3.org/fun/fun/src/branch/main/examples){:class="git"} directory should be an example of most Fun features.
+In the [./examples/](https://git.xw3.org/fun/fun/src/branch/main/examples){:class="ext"} directory should be an example of most Fun features.
 
-A complete API documentation will follow.
+Fun internals are found directly in the [./src/](https://git.xw3.org/fun/fun/src/branch/main/src){:class="ext"} diretory. Fun [Opcodes](https://en.wikipedia.org/wiki/Opcode){:class="ext"} are found in [./src/vm/](https://git.xw3.org/fun/fun/src/branch/main/src/vm){:class="ext"}.
+
+Since things are actually changing sometimes, I will not write the documentation for this as of now.
+
+Complete API documentation will follow.
 
 ## Code
 

@@ -18,7 +18,7 @@ tags:
 - howto
 ---
 
-## Overview
+# Fun Handbook
 
-Current documentation for Fun is only found in the [Fun Handbook](https://git.xw3.org/fun/fun/src/branch/main/docs/handbook.md){:class="git"} in the Git repository.
+[The Fun Handbook is found here](https://git.xw3.org/fun/fun/src/branch/main/docs/handbook.md){:class="ext"}!
 
