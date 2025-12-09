@@ -100,24 +100,22 @@ Fun may not change the world — but it will make programming a little more fun.
 
 ...
 
-### Extensions
+### Extensions (only Linux actually)
 
 - [CGI](https://en.wikipedia.org/wiki/Common_Gateway_Interface){:class="ext"} support builtin using [kcgi](https://kristaps.bsd.lv/kcgi/){:class="ext"} (optional) <span style="color:red;font-weight:bold;">&#9744;</span>
 - [cURL](https://curl.se/){:class="ext"} support builtin using [libcurl](https://curl.se/libcurl/){:class="ext"} (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
-- [INI](https://en.wikipedia.org/wiki/INI_file){:class="ext"} support builtin using [iniparser](https://gitlab.com/iniparser/iniparser/){:class="ext"} (optional) <span style="color:red;font-weight:bold;">&#9744;</span>
+- [INI](https://en.wikipedia.org/wiki/INI_file){:class="ext"} support builtin using [iniparser](https://gitlab.com/iniparser/iniparser/){:class="ext"} (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
 - [JSON](https://www.json.org/){:class="ext"} support builtin using [json-c](https://github.com/json-c/json-c){:class="ext"} (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
 - [libSQL](https://github.com/tursodatabase/libsql){:class="ext"} support builtin as a compatible alternative to SQLite (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
 - [PCRE2](https://pcre2project.github.io/pcre2/){:class="ext"} support builtin for Perl-Compatible Regular Expressions (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
 - [PCSC](https://pcscworkgroup.com/){:class="ext"} smart card support builtin using [PCSC lite](https://pcsclite.apdu.fr/){:class="ext"} (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
 - [SQLite](https://sqlite.org/){:class="ext"} support builtin (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
 - [Tk](https://www.tcl-lang.org/){:class="ext"} support builtin for GUI application development (optional) <span style="color:red;font-weight:bold;">&#9744;</span>
-- [TOML](https://en.wikipedia.org/wiki/TOML){:class="ext"} support builtin using [tomlc99](https://github.com/cktan/tomlc99){:class="ext"} (optional) <span style="color:red;font-weight:bold;">&#9744;</span>
-- [XML](https://www.w3.org/XML/){:class="ext"} support builtin using [libxml2](https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home){:class="ext"} (optional) <span style="color:red;font-weight:bold;">&#9744;</span>
-- [YAML](https://yaml.org/){:class="ext"} support builtin using [libfyaml](https://github.com/pantoniou/libfyaml){:class="ext"} (optional) <span style="color:red;font-weight:bold;">&#9744;</span>
+- [XML](https://www.w3.org/XML/){:class="ext"} support builtin using [libxml2](https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home){:class="ext"} (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
 
 <span style="color:green;font-weight:bold;">&#9745;</span> = Done / <span style="color:red;font-weight:bold;">&#9744;</span> = Planned or in progress.
 
-Note: Not all of the above features will be implemented. Those who are marked "Done" will probaly remain in Fun, but I don't know actually... ;)
+Note: Not all of the above features will be implemented. Those who are marked "Done" will probably remain in Fun, but I don't know actually... ;)
 
 There are some libs written in Fun available in the [./lib/](https://git.xw3.org/fun/fun/src/branch/main/lib){:class="ext"} diretory. In the future most Fun enhancements should be written in Fun itself.
 
