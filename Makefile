@@ -39,7 +39,7 @@ localrelease:
 minify:
 	find ./_site -type f -name "*.html" -exec minify --html-keep-document-tags --html-keep-end-tags -o {} {} \;
 	find ./_site -type f -name "*.html" -exec sed -i 's/ \/>/>/g' {} +
-	find ./_site -type f -name "*.html" -exec perl -0777 -pi -e 's/\n/ /g' {} +
+	#find ./_site -type f -name "*.html" -exec perl -0777 -pi -e 's/\n/ /g' {} +
 	find ./_site -type f -name "*.css" -exec minify --css-precision 0 -o {} {} \;
 	find ./_site -type f -name "*.xml" -exec minify -o {} {} \;
 
