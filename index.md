@@ -1,9 +1,11 @@
 ---
-layout: default
-title: /index.fun
-description: Blog
+layout: page
+title: :load /index.fun
+subtitle: The programming language that makes you have fun!
+description: Blog and Homepage
 metasub: news
 noToc: true
+noDate: false
 tags:
 - fun
 - project
@@ -15,28 +17,25 @@ tags:
 permalink: /
 ---
 
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title" id="terminal">{{ site.title }} {{ page.title }}</h1>
-    <p>{{ page.subtitle }}</p>
-  </header>
-</div>
-
 <h2>What is Fun?</h2>
 
 <p>Fun is an experiment, just for fun, but Fun works!</p>
 
 <p>Fun is a highly strict programming language, but also highly simple. It looks like Python (My favorite language), but there are differences.</p>
 
+<p>Influenced by <a href="https://www.gnu.org/software/bash/" class="ext">Bash</a>, <a href="https://en.wikipedia.org/wiki/The_C_Programming_Language" class="ext">C</a>, <a href="https://www.lua.org/" class="ext">Lua</a>, PHP, <a href="https://www.python.org/" class="ext">Python</a>, and a little Rust (Most influences came from linked languages).</p>
+
 <p>Fun is and will ever be 100% free under the terms of the <a href="https://opensource.org/license/apache-2-0" class="ext">Apache-2.0 License</a>.</p>
 
-<h2>Blog - <a href="/feed/" title="Blog Feed" class="rss">Blog Feed</a></h2>
+<!--<p><a href="/about/">More about Fun</a><p>-->
+
+<h2>Blog (<a href="/feed/" title="Blog Feed" class="rss">Feed</a>)</h2>
 
 {% for post in site.tags.pinned %}
 <article class="post-content">
-<h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.url }}</a> <span style="cursor:help; float: right;" title="Pinned Post!">📌</span></h3>
+<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span style="cursor:help; float: right;" title="Pinned Post!">📌</span></h2>
 <p class="post-meta">{{ post.date | date: "%b %-d, %Y %H:%M:%S" }} ({{ post.date | date: "%b %-d, %Y %H:%M:%S" | date: "%Z" }})
-{% if post.date_updated %} - Edited: {{ post.date_updated | date: "%b %-d, %Y %H:%M:%S" }}{% endif %} ({{ post.date_updated | date: "%b %-d, %Y %H:%M:%S" | date: "%Z" }}){% if post.author %}, <a href="{{ site.git_short }}/{{ post.author }}" target="_blank" class="user">{{ post.author }}</a>{% endif %}</p>
+{% if post.date_updated %} - Edited: {{ post.date_updated | date: "%b %-d, %Y %H:%M:%S" }} ({{ post.date_updated | date: "%b %-d, %Y %H:%M:%S" | date: "%Z" }}){% endif %}{% if post.author %}, <a href="{{ site.git_short }}/{{ post.author }}" target="_blank" class="user">{{ post.author }}</a>{% endif %}</p>
 {{ post.content | truncatewords: site.truncatewords_length }}
 <p style="text-align:right;"><a href="{{ post.url }}" title="{{ post.url }}">[Read post]</a></p>
 </article>
@@ -45,16 +44,16 @@ permalink: /
 {% for post in site.posts %}
 {% unless post.tags contains 'pinned' %}
 <article class="post-content">
-<h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.url }}</a></h3>
+<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
 <p class="post-meta">{{ post.date | date: "%b %-d, %Y %H:%M:%S" }} ({{ post.date | date: "%b %-d, %Y %H:%M:%S" | date: "%Z" }})
-{% if post.date_updated %} - Edited: {{ post.date_updated | date: "%b %-d, %Y %H:%M:%S" }}{% endif %} ({{ post.date_updated | date: "%b %-d, %Y %H:%M:%S" | date: "%Z" }}){% if post.author %}, <a href="{{ site.git_short }}/{{ post.author }}" target="_blank" class="user">{{ post.author }}</a>{% endif %}</p>
+{% if post.date_updated %} - Edited: {{ post.date_updated | date: "%b %-d, %Y %H:%M:%S" }} ({{ post.date_updated | date: "%b %-d, %Y %H:%M:%S" | date: "%Z" }}){% endif %}{% if post.author %}, <a href="{{ site.git_short }}/{{ post.author }}" target="_blank" class="user">{{ post.author }}</a>{% endif %}</p>
 {{ post.content | truncatewords: site.truncatewords_length }}
 <p style="text-align:right;"><a href="{{ post.url }}" title="{{ post.url }}">[Read post]</a></p>
 </article>
 {% endunless %}
 {% endfor %}
 
-<h2>$ cd</h2>
+<h2>Pages</h2>
 
 <div id="pages">
 {% if paginator.page == 1 %}<a href="/blog/" class="active" title="Page 1">1</a>{% else %}<a href="/blog/" title="Page 1">1</a>{% endif %}

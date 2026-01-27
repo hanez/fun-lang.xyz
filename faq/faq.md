@@ -2,7 +2,7 @@
 layout: page
 published: true
 noToc: true
-title: /faq/index.fun
+title: FAQ
 subtitle: Frequently Asked Questions
 description: Frequently Asked Questions (FAQ)
 permalink: /faq/

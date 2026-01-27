@@ -3,7 +3,7 @@ layout: page
 published: true
 noToc: false
 noComments: true
-title: /privacy/index.fun
+title: Privacy
 subtitle:
 description: Privacy
 permalink: /privacy/

@@ -1,26 +1,20 @@
 ---
-layout: default
-title: /about/index.fun
+layout: page
+title: About
+subtitle: More information about having fun... :)
 description: About
 metasub: news
-noToc: false
+noToc: true
+noDate: false
 tags:
-- xw3
-- project
-- cgi
-- static
-- jekyll
+- fun
+- programming
+- language
+- about
 _description: The programming language that just makes fun!
 noComments: true
 permalink: /about/
 ---
-
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title" id="terminal">{{ site.title }} {{ page.title }}</h1>
-    <p style="padding: 0px 0px 0px 0px;">{{ site.subtitle }}</p>
-  </header>
-</div>
 
 ## What is Fun?
 
@@ -28,7 +22,7 @@ Fun is an experiment, just for fun, but Fun works!
 
 Fun is a highly strict programming language, but also highly simple. It looks like Python (My favorite language), but there are differences.
 
-Influenced by **[Bash](https://www.gnu.org/software/bash/){:class="ext"}**, **[C](https://en.wikipedia.org/wiki/The_C_Programming_Language){:class="ext"}**, **[Lua](https://www.lua.org/){:class="ext"}**, PHP, **[Python](https://www.python.org/){:class="ext"}**, and Rust (Most influences came from linked languages).
+Influenced by **[Bash](https://www.gnu.org/software/bash/){:class="ext"}**, **[C](https://en.wikipedia.org/wiki/The_C_Programming_Language){:class="ext"}**, **[Lua](https://www.lua.org/){:class="ext"}**, PHP, **[Python](https://www.python.org/){:class="ext"}**, and a little Rust (Most influences came from linked languages).
 
 Fun is and will ever be 100% free under the terms of the [Apache-2.0 License](https://opensource.org/license/apache-2-0){:class="ext"}.
 
@@ -36,6 +30,8 @@ Fun is and will ever be 100% free under the terms of the [Apache-2.0 License](ht
 
 - Simplicity
 - Consistency
+- Simple to extend
+- Hackable
 - Joy in coding
 - Fun!
 
@@ -77,7 +73,7 @@ Fun is not about being the fastest or the most feature-rich. It’s about sharin
 
 Like the name says: Fun Unites Nerds.
 
-Please visit the [Fun Community Page](https://fun-lang.xyz/community/) to get in touch.
+Please visit the [Fun Community Page](https://fun-lang.xyz/community/){:class="git"} to get in touch.
 
 ## The Goal
 
@@ -97,9 +93,11 @@ Fun may not change the world — but it will make programming a little more fun.
 - if/else if/else
 - try/catch/finally
 
+and much more...
+
 ### Lib
 
-...
+See [https://git.xw3.org/fun/fun/src/branch/main/lib](https://git.xw3.org/fun/fun/src/branch/main/lib) for what the standard library provides.
 
 ### Extensions (only Linux actually)
 
@@ -119,20 +117,6 @@ Fun may not change the world — but it will make programming a little more fun.
 Note: Not all of the above features will be implemented. Those who are marked "Done" will probably remain in Fun, but I don't know actually... ;)
 
 There are some libs written in Fun available in the [./lib/](https://git.xw3.org/fun/fun/src/branch/main/lib){:class="ext"} diretory. In the future most Fun enhancements should be written in Fun itself.
-
-## Documentation
-
-This is actually a work in progress...
-
-Current documentation is only found in the [Fun Handbook](https://git.xw3.org/fun/fun/src/branch/main/docs/handbook.md){:class="ext"}.
-
-In the [./examples/](https://git.xw3.org/fun/fun/src/branch/main/examples){:class="ext"} directory should be an example of most Fun features.
-
-Fun internals are found directly in the [./src/](https://git.xw3.org/fun/fun/src/branch/main/src){:class="ext"} diretory. Fun [Opcodes](https://en.wikipedia.org/wiki/Opcode){:class="ext"} are found in [./src/vm/](https://git.xw3.org/fun/fun/src/branch/main/src/vm){:class="ext"}.
-
-Since things are actually changing sometimes, I will not write the documentation for this as of now.
-
-Complete API documentation will follow.
 
 ## Code
 

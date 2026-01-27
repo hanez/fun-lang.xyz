@@ -1,6 +1,7 @@
 .site {
   //border-radius: 12px 12px;
   border: 1px solid #000;
+  border-radius: 8px;
   background-color: #fcfbf9;
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:     calc(#{$content-width} - (#{$spacing-unit} * 2));

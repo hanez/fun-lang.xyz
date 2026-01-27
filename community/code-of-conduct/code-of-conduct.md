@@ -3,7 +3,7 @@ layout: page
 published: true
 noToc: false
 noDate: false
-title: /community/code-of-conduct/index.fun
+title: Code of Conduct
 subtitle: Contributor Covenant Code of Conduct
 description: Code of Conduct
 permalink: /community/code-of-conduct/
