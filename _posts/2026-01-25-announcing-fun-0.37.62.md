@@ -26,7 +26,7 @@ We're excited to announce the release of Fun version 0.37.62, the latest iterati
 
 ### What's Fun All About?
 
-Fun is a highly strict yet highly simple programming language that draws inspiration from Bash, C, Lua, PHP, Python, and Rust. If you love Python's clean syntax but want something with stricter rules and built-in type safety, Fun might be worth exploring. It's dynamically typed with optional static typing, written in C (C99) and Fun itself, and designed to be small, embeddable, and hackable. More on the [about](https://fun-lang.org/about/) page.
+Fun is a highly strict yet highly simple programming language that draws inspiration from Bash, C, Lua, PHP, Python, and Rust. If you love Python's clean syntax but want something with stricter rules and built-in type safety, Fun might be worth exploring. It's dynamically typed with optional static typing, written in C (C99) and Fun itself, and designed to be small, embeddable, and hackable. More on the [about](https://fun-lang.xyz/about/) page.
 
 ### Important: This is an Experiment
 
