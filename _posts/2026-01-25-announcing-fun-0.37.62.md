@@ -6,7 +6,7 @@ noToc: false
 title: Announcing Fun 0.37.62
 description: Homepage and Blog
 date: 2026-01-25
-date_updated: 2026-01-26
+date_updated: 2026-01-28 19:54:37
 categories:
 - news
 - project
@@ -22,9 +22,11 @@ tags:
 
 We're excited to announce the release of Fun version 0.37.62, the latest iteration of our experimental programming language that prioritizes simplicity, consistency, and most importantly — joy in coding.
 
+[Link to Hackernews post](https://news.ycombinator.com/item?id=46787331){:class="ext"}.
+
 ### What's Fun All About?
 
-Fun is a highly strict yet highly simple programming language that draws inspiration from Bash, C, Lua, PHP, Python, and Rust. If you love Python's clean syntax but want something with stricter rules and built-in type safety, Fun might be worth exploring. It's dynamically typed with optional static typing, written in C (C99) and Fun itself, and designed to be small, embeddable, and hackable. More on the [about](/about/) page.
+Fun is a highly strict yet highly simple programming language that draws inspiration from Bash, C, Lua, PHP, Python, and Rust. If you love Python's clean syntax but want something with stricter rules and built-in type safety, Fun might be worth exploring. It's dynamically typed with optional static typing, written in C (C99) and Fun itself, and designed to be small, embeddable, and hackable. More on the [about](https://fun-lang.org/about/) page.
 
 ### Important: This is an Experiment
 
@@ -147,6 +149,7 @@ If you're curious about Fun, check out:
 - [Website](https://fun-lang.xyz)
 - [Git Repository](https://git.xw3.org/fun/fun){:class="git"}
 - [Fun Handbook](https://git.xw3.org/fun/fun/src/branch/main/docs/handbook.md){:class="git"}
+- [Fun REPL Guide](https://git.xw3.org/fun/fun/src/branch/main/docs/repl.md){:class="git"}
 - [Specification v0.3](https://git.xw3.org/fun/fun/src/branch/main/spec/v0.3.md){:class="git"}
 - [Examples](https://git.xw3.org/fun/fun/src/branch/main/examples){:class="git"}
 - [Standard Library](https://git.xw3.org/fun/fun/src/branch/main/lib){:class="git"}
@@ -158,6 +161,7 @@ The examples directory contains demonstrations of most Fun features, from basic 
 
 - [Fun Internals](https://git.xw3.org/fun/fun/src/branch/main/docs/internals.md){:class="git"}
 - [Fun Opcodes](https://git.xw3.org/fun/fun/src/branch/main/docs/opcodes.md){:class="git"}
+- [Basic Rust Opcodes Support](https://git.xw3.org/fun/fun/src/branch/main/docs/rust.md){:class="git"}
 
 ### The Road Ahead
 
@@ -165,7 +169,7 @@ Documentation is a work in progress as we continue debugging, fixing bugs, and e
 
 Fun may not change the world, but it aims to make programming a little more fun. We're on a journey, and we'd love to have you along for the ride — bugs and all.
 
-Fun is and will always be 100% free under the terms of the Apache-2.0 License.
+Fun is and will always be 100% free under the terms of the [Apache-2.0 License](https://opensource.org/license/apache-2-0){:class="ext"}.
 
 Happy hacking, and remember: Fun is Fun!
 

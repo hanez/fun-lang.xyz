@@ -24,6 +24,9 @@ lang: en
 os: GNU/Linux
 charset: utf-8
 libdir: /var/www/fun-lang.xyz/www/lib
+license: CC BY-NC-SA
+license_name: Attribution-NonCommercial-ShareAlike 4.0 International
+license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 mastodon: https://fosstodon.org/@fun
 

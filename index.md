@@ -27,6 +27,8 @@ permalink: /
 
 <p>Fun is and will ever be 100% free under the terms of the <a href="https://opensource.org/license/apache-2-0" class="ext">Apache-2.0 License</a>.</p>
 
+<p style="text-align:right;"><a href="/about/" title="About">[Read more]</a></p>
+
 <!--<p><a href="/about/">More about Fun</a><p>-->
 
 <h2>Blog (<a href="/feed/" title="Blog Feed" class="rss">Feed</a>)</h2>
@@ -60,5 +62,5 @@ permalink: /
 {% for count in (2..paginator.total_pages) %}
 {% if count == paginator.page %}<a href="/{{ count }}/" class="active" title="Page {{ count }}">{{ count }}</a>{% else %}<a href="/{{ count }}/" title="Page {{ count }}">{{ count }}</a>{% endif %}
 {% endfor %}
-</div>
+</div><br>
 
