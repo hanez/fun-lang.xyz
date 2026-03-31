@@ -6,7 +6,7 @@ noToc: false
 title: Announcing Fun 0.37.62
 description: Homepage and Blog
 date: 2026-01-25
-date_updated: 2026-01-28 19:54:37
+date_updated: 2026-01-31 21:45:03
 categories:
 - news
 - project
