@@ -95,6 +95,8 @@ Fun may not change the world — but it will make programming a little more fun.
 
 and much more...
 
+Look at the examples here: [https://git.xw3.org/fun/fun/src/branch/main/examples](https://git.xw3.org/fun/fun/src/branch/main/examples){:class="ext"}
+
 ### Lib
 
 See [https://git.xw3.org/fun/fun/src/branch/main/lib](https://git.xw3.org/fun/fun/src/branch/main/lib) for what the standard library provides.
@@ -105,11 +107,9 @@ See [https://git.xw3.org/fun/fun/src/branch/main/lib](https://git.xw3.org/fun/fu
 - [cURL](https://curl.se/){:class="ext"} support builtin using [libcurl](https://curl.se/libcurl/){:class="ext"} (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
 - [INI](https://en.wikipedia.org/wiki/INI_file){:class="ext"} support builtin using [iniparser](https://gitlab.com/iniparser/iniparser/){:class="ext"} (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
 - [JSON](https://www.json.org/){:class="ext"} support builtin using [json-c](https://github.com/json-c/json-c){:class="ext"} (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
-- [libSQL](https://github.com/tursodatabase/libsql){:class="ext"} support builtin as a compatible alternative to SQLite (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
 - [PCRE2](https://pcre2project.github.io/pcre2/){:class="ext"} support builtin for Perl-Compatible Regular Expressions (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
 - [PCSC](https://pcscworkgroup.com/){:class="ext"} smart card support builtin using [PCSC lite](https://pcsclite.apdu.fr/){:class="ext"} (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
 - [SQLite](https://sqlite.org/){:class="ext"} support builtin (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
-- [Tk](https://www.tcl-lang.org/){:class="ext"} support builtin for GUI application development (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
 - [XML](https://www.w3.org/XML/){:class="ext"} support builtin using [libxml2](https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home){:class="ext"} (optional) <span style="color:green;font-weight:bold;">&#9745;</span>
 
 <span style="color:green;font-weight:bold;">&#9745;</span> = Done / <span style="color:red;font-weight:bold;">&#9744;</span> = Planned or in progress.
